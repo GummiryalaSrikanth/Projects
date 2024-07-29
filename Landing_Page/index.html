@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing_Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <p class="logo-text">SK Store</p>
+          </div>
+          <nav>
+            <ul class="MenuItems">
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <img src="images/cart.png" alt="" width="30px" height="30px" />
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Give Your Workout <br />
+              A NewStyle!
+            </h1>
+            <p>
+              Success isn't always about greatness. It's about consistency.
+              Consistent <br />
+              hardwork gains success. Greatness will come.
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/image1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/category-1.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-2.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="small-container">
+      <h2>Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-1.webp" alt="" height="270px" />
+          <h4>Denim T-Shirt</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i>  
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-2.webp" alt="" height="270px" />
+          <h4>Denim Shoes</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-3.webp" alt="" height="270px" />
+          <h4>Denim Jeans</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-4.webp" alt="" height="270px" />
+          <h4>Denim Jacket</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <h2>Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-5.webp" alt="" height="270px" />
+          <h4>PUMA Deuce Shoes</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-6.webp" alt="" height="270px" />
+          <h4>Svaar Crocks</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-7.webp" alt="" height="270px" />
+          <h4>DADDYZ</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-8.webp" alt="" height="270px" />
+          <h4>Lime-Stone</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-9.jpg" alt="" height="270px" />
+          <h4>Being Wanted</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-10.jpg" alt="" height="270px" />
+          <h4>RS Brothers</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-11.jpg" alt="" height="270px" />
+          <h4>Ramraj</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-12.jpg" alt="" height="270px" />
+          <h4>Peter England</h4>
+          <div class="rating">
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-s-fill"></i>
+            <i class="ri-star-half-fill"></i> 
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/exclusive.png" alt="" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on SK Store</p>
+            <h1>Smart Band</h1>
+            <small
+              >Kroter Smart Fitness Band with Bluetooth Activity Tracker
+              Smartwatch Wrist Watch for Men/Women with Heart Rate and Sleep
+              Monitor Functions.</small
+            >
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              reiciendis, obcaecati qui amet tenetur repellat est voluptate
+              veniam accusantium impedit delectus repellendus itaque aliquid
+              officiis corporis numquam praesentium unde iste.
+            </p>
+            <div class="rating">
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-half-fill"></i> 
+            </div>
+            <img src="images/user-1.png" alt="" />
+            <h3>Sean Parker</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              reiciendis, obcaecati qui amet tenetur repellat est voluptate
+              veniam accusantium impedit delectus repellendus itaque aliquid
+              officiis corporis numquam praesentium unde iste.
+            </p>
+            <div class="rating">
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-half-fill"></i> 
+            </div>
+            <img src="images/user-2.png" alt="" />
+            <h3>Mike Smith</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              reiciendis, obcaecati qui amet tenetur repellat est voluptate
+              veniam accusantium impedit delectus repellendus itaque aliquid
+              officiis corporis numquam praesentium unde iste.
+            </p>
+            <div class="rating">
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-s-fill"></i>
+                <i class="ri-star-half-fill"></i> 
+            </div>
+            <img src="images/user-3.png" alt="" />
+            <h3>Anny Wills</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="images/logo-paypal.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-godrej.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-coca-cola.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-philips.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>
+              Download Our App for Android and ios mobile <br />
+              phone.
+            </p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="" />
+              <img src="images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <p class="logo-text">SK Store</p>
+            <p>
+              Our purpose is to sustainably make the pleasure and benefits of
+              sports Accessible to the many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2024 - SK Store</p>
+      </div>
+    </div> 
+  </body>
+</html>
+
